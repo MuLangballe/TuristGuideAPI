@@ -9,8 +9,8 @@ import java.util.List;
 @Repository
 public class TouristRepository {
 
-    TouristAttraction touristAttraction1 = new TouristAttraction("Den lille Havfrue", "En sej lille dame, på en sej lille sten");
-    TouristAttraction touristAttraction2 = new TouristAttraction("Runde tårn", "Ret højt tårn, som er ret rundt");
+    TouristAttraction touristAttraction1 = new TouristAttraction("Havfrue", "Den lille Havfrue. En sej lille dame, på en sej lille sten");
+    TouristAttraction touristAttraction2 = new TouristAttraction("Runde", "Runde tårn. Ret højt tårn, som er ret rundt");
     TouristAttraction touristAttraction3 = new TouristAttraction("Amalienborg","Nydeligt hus til en nydelig familie");
 
     List<TouristAttraction> attractions = new ArrayList<>(List.of(touristAttraction1, touristAttraction2, touristAttraction3));
